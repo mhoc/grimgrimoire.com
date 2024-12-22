@@ -1,0 +1,24 @@
+---
+import WeaponEvolution from "../components/WeaponEvolution.astro";
+import WeaponTitle from "../components/WeaponTitle.astro";
+import Layout from "../layouts/Layout.astro";
+import WeaponLayout from "../layouts/WeaponLayout.astro";
+---
+<Layout>
+  <WeaponLayout>
+    <WeaponTitle
+      description="Union of Vento Sacro and Bloody Tear. Critical hits might generate explosions."
+      iconSrc="/fuwalafuwaloo.webp"
+      name="Fuwalafuwaloo"
+    />
+    <WeaponEvolution 
+      lhs={[
+        { href: "/bloody-tear", icon: "/bloody-tear.webp", name: "Bloody Tear" },
+        { href: "/vento-sacro", icon: "/vento-sacro.webp", name: "Vento Sacro" },
+      ]}
+      rhs={[
+        { href: "/fuwalafuwaloo", icon: "/fuwalafuwaloo.webp", name: "Fuwalafuwaloo" },
+      ]}
+    />
+  </WeaponLayout>
+</Layout>

@@ -1,0 +1,47 @@
+---
+import WeaponMenuIcon from '../components/WeaponMenuIcon.astro';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+	<div class="title-container">
+		<span class="title">The Grim Grimoire</span>
+		<span class="subtitle">An unofficial tool for <a class="link" href="https://store.steampowered.com/app/1794680/Vampire_Survivors/" target="_blank">Vampire Survivors</a></span>
+	</div>
+	<div class="items-container">
+		<WeaponMenuIcon imageUrl='/bloody-tear.webp' href="/bloody-tear" large />
+		<WeaponMenuIcon imageUrl='/fuwalafuwaloo.webp' href="/fuwalafuwaloor" large />
+		<WeaponMenuIcon imageUrl='/vento-sacro.webp' href="/vento-sacro" large />
+		<WeaponMenuIcon imageUrl='/whip.webp' href="/whip" large />
+	</div>
+</Layout>
+<style>
+	.title-container {
+		display: flex;
+		flex-direction: column;
+		padding: 16px;
+	}
+	.title {
+		color: #d4d4d8;
+		font-size: 1.2rem;
+		font-style: italic;
+	}
+	.subtitle {
+		color: #d4d4d8;
+		font-size: 0.8rem;
+		font-style: italic;
+	}
+	.link {
+		color: #a1a1aa;
+		text-decoration: underline;
+		text-decoration-color: #a1a1aa;
+		text-decoration-style: dashed;
+	}
+	.items-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		max-width: 1000px;
+		width: 100vw;
+	}
+</style>

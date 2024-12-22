@@ -1,0 +1,24 @@
+---
+import WeaponEvolution from "../components/WeaponEvolution.astro";
+import WeaponTitle from "../components/WeaponTitle.astro";
+import Layout from "../layouts/Layout.astro";
+import WeaponLayout from "../layouts/WeaponLayout.astro";
+---
+<Layout>
+  <WeaponLayout>
+    <WeaponTitle
+      description="Augments Max Health by 20%."
+      iconSrc="/hollow-heart.webp" 
+      name="Hollow Heart"
+    />
+    <WeaponEvolution 
+      lhs={[
+        { href: "/whip", icon: "/whip.webp", name: "Whip" },
+        { href: "/hollow-heart", icon: "/hollow-heart.webp", name: "Hollow Heart" },
+      ]}
+      rhs={[
+        { href: "/bloody-tear", icon: "/bloody-tear.webp", name: "Bloody Tear" },
+      ]}
+    />
+  </WeaponLayout>
+</Layout>

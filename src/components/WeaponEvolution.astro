@@ -1,0 +1,37 @@
+---
+import WeaponMenuIcon from './WeaponMenuIcon.astro';
+
+type Props = {
+  lhs: Array<{
+    href: string;
+    icon: string;
+    name: string;
+  }>
+  rhs: Array<{
+    href: string;
+    icon: string;
+    name: string;
+  }>;
+}
+const { lhs, rhs } = Astro.props;
+---
+<div class="container">
+  {lhs.map((lhsItem) => {
+    return <WeaponMenuIcon href={lhsItem.href} imageUrl={lhsItem.icon} name={lhsItem.name} />
+  })}
+  <span class="arrow">-></span>
+  {rhs.map((rhsItem) => {
+    return <WeaponMenuIcon href={rhsItem.href} imageUrl={rhsItem.icon} name={rhsItem.name} />
+  })}
+</div>
+<style>
+  .container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+  .arrow {
+    color: #e4e4e7;
+  }
+</style>

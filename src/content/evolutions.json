@@ -15,6 +15,11 @@
     "right": [{ "id": "heaven-sword" }]
   },
   {
+    "id": "fire-wand-spinach-hellfire",
+    "left": [{ "id": "fire-wand" }, { "id": "spinach" }],
+    "right": [{ "id": "hellfire" }]
+  },
+  {
     "id": "king-bible-spellbinder-unholy-vespers",
     "left": [{ "id": "king-bible" }, { "id": "spellbinder" }],
     "right": [{ "id": "unholy-vespers" }]

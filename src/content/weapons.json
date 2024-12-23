@@ -64,6 +64,14 @@
     "unlock_via": "Holding six different weapons at once."
   },
   {
+    "id": "fire-wand",
+    "description": "Fires at a random enemy, deals heavy damage.",
+    "name": "Fire Wand",
+    "starting_weapon_for": "Arca Ladonna",
+    "type": "weapon",
+    "unlock_via": "Destroying 20 torches."
+  },
+  {
     "id": "fuwalafuwaloo",
     "description": "Union of Vento Sacro and Bloody Tear. Critical hits might generate explosions.",
     "name": "Fuwalafuwaloo",
@@ -78,6 +86,13 @@
     "starting_weapon_for": "Gains Boros",
     "type": "weapon",
     "unlock_via": "Evolving the Cross with a Clover"
+  },
+  {
+    "id": "hellfire",
+    "description": "Evolved Fire Wand. Passes through enemies.",
+    "name": "Hellfire",
+    "type": "weapon",
+    "unlock_via": "Evolving the Fire Wand with a Spinach."
   },
   {
     "id": "hollow-heart",
@@ -126,6 +141,14 @@
     "stage_item_on": "Gallo Tower, Moonglow, Boss Rash",
     "type": "passive",
     "unlock_via": "Reaching Level 4 on the Runetracer."
+  },
+  {
+    "id": "spinach",
+    "description": "Raises inflicted damage by 20%",
+    "name": "Spinach",
+    "stage_item_on": "Mad Forest, Moonglow, Boss Rash, Mt. Moonspell",
+    "type": "passive",
+    "unlock_via": "Starting passive item."
   },
   {
     "id": "thousand-edge",

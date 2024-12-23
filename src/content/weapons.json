@@ -1,5 +1,13 @@
 [
   {
+    "id": "attractorb",
+    "description": "Character pickups items from further away.",
+    "name": "Attractorb",
+    "stage_item_on": "Dairy Plant, Moonglow, Boss Rash, Tiny Bridge, Mt. Moonspell, Abyss Foscari",
+    "type": "passive",
+    "unlock_via": "Finding a vacuum dropped by a light source."
+  },
+  {
     "id": "axe",
     "description": "High damage, high Area scaling.",
     "name": "Axe",
@@ -135,6 +143,13 @@
     "unlock_via": "Starting weapon."
   },
   {
+    "id": "la-borra",
+    "description": "Evolved Santa Water. Damaging zones follow you and grow when they move.",
+    "name": "La Borra",
+    "type": "weapon",
+    "unlock_via": "Evolving the Santa Water with an Attractorb."
+  },
+  {
     "id": "magic-wand",
     "description": "Fires at the nearest enemy",
     "name": "Magic Wand",
@@ -149,6 +164,14 @@
     "stage_item_on": "Mad Forest, Moonglow, Boss Rash, Mt. Moonspell",
     "type": "passive",
     "unlock_via": "Surviving five minutes as Gennaro Belpaese."
+  },
+  {
+    "id": "santa-water",
+    "description": "Generates damaging zones.",
+    "name": "Santa Water",
+    "starting_weapon_for": "Suor Clerici",
+    "type": "weapon",
+    "unlock_via": "Starting weapon."
   },
   {
     "id": "soul-eater",

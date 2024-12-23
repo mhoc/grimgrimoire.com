@@ -2,13 +2,12 @@
 type Props = {
   href: string;
   imageUrl: string;
-  large?: boolean;
   name?: string;
 }
-const { href, imageUrl, large, name } = Astro.props;
+const { href, imageUrl, name } = Astro.props;
 ---
 <a class="container" href={href}>
-  <img class={large ? "img-large" : "img"} src={imageUrl} />
+  <img class="img" src={imageUrl} />
   {name && <span class="name">{name}</span>}
 </a>
 <style>
@@ -23,9 +22,11 @@ const { href, imageUrl, large, name } = Astro.props;
     max-height: 100px;
     max-width: 100px;
   }
-  .img-large {
-    max-height: 100px;
-    max-width: 100px;
+  @media (max-width: 600px) {
+    .img {
+      max-height: 25vw;
+      max-width: 25vw;
+    }
   }
   .name {
     color: #d6d3d1;

@@ -13,7 +13,7 @@ const weapons = await getCollection("weapons");
 	</div>
 	<div class="items-container">
 		{weapons.map((weapon) => {
-			return <WeaponMenuIcon imageUrl={`${weapon.id}.webp`} href={`/${weapon.id}`} large />
+			return <WeaponMenuIcon imageUrl={`${weapon.id}.webp`} href={`/${weapon.id}`} />
 		})}
 	</div>
 </Layout>

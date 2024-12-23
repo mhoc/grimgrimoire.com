@@ -1,0 +1,24 @@
+---
+import WeaponEvolution from "../components/WeaponEvolution.astro";
+import WeaponTitle from "../components/WeaponTitle.astro";
+import Layout from "../layouts/Layout.astro";
+import WeaponLayout from "../layouts/WeaponLayout.astro";
+---
+<Layout>
+  <WeaponLayout>
+    <WeaponTitle
+      description="High damage, high Area scaling."
+      iconSrc="/axe.webp" 
+      name="Axe"
+    />
+    <WeaponEvolution 
+      lhs={[
+        { href: "/axe", icon: "/axe.webp", name: "Axe" },
+        { href: "/candelabrador", icon: "/candelabrador.webp", name: "Candelabrador" },
+      ]}
+      rhs={[
+        { href: "/death-spiral", icon: "/death-spiral.webp", name: "Death Spiral" },
+      ]}
+    />
+  </WeaponLayout>
+</Layout>

@@ -1,0 +1,25 @@
+---
+import WeaponEvolution from "../components/WeaponEvolution.astro";
+import WeaponTitle from "../components/WeaponTitle.astro";
+import Layout from "../layouts/Layout.astro";
+import WeaponLayout from "../layouts/WeaponLayout.astro";
+---
+<Layout>
+  <WeaponLayout>
+    <WeaponTitle
+      description="Generates 4 explosions. Amount and Duration affect damage instead."
+      iconSrc="/four-seasons.webp" 
+      ignores="Speed"
+      name="Four Seasons"
+    />
+    <WeaponEvolution 
+      lhs={[
+        { href: "/four-seasons", icon: "/four-seasons.webp", name: "Four Seasons" },
+        { href: "/candelabrador", icon: "/candelabrador.webp", name: "Candelabrador" },
+      ]}
+      rhs={[
+        { href: "/godai-shuffle", icon: "/godai-shuffle.webp", name: "Godai Shuffle" },
+      ]}
+    />
+  </WeaponLayout>
+</Layout>

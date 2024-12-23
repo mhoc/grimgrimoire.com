@@ -20,6 +20,11 @@
     "right": [{ "id": "hellfire" }]
   },
   {
+    "id": "garlic-pummarola-soul-eater",
+    "left": [{ "id": "garlic" }, { "id": "pummarola" }],
+    "right": [{ "id": "soul-eater" }]
+  },
+  {
     "id": "king-bible-spellbinder-unholy-vespers",
     "left": [{ "id": "king-bible" }, { "id": "spellbinder" }],
     "right": [{ "id": "unholy-vespers" }]

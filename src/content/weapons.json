@@ -80,6 +80,14 @@
     "unlock_via": "Evolving the Bloody Tear with Vento Sacro."
   },
   {
+    "id": "garlic",
+    "description": "Damages nearby enemies. Reduces resistance to knockback and freeze.",
+    "name": "Garlic",
+    "starting_weapon_for": "Poe Ratcho",
+    "type": "weapon",
+    "unlock_via": "Consuming five floor chickens."
+  },
+  {
     "id": "heaven-sword",
     "description": "Evolved Cross. Can deal critical deamage.",
     "name": "Heaven Sword",
@@ -133,6 +141,22 @@
     "starting_weapon_for": "Imelda Belpaese",
     "type": "weapon",
     "unlock_via": "Starting weapon."
+  },
+  {
+    "id": "pummarola",
+    "description": "Character recovers 0.2HP per-second.",
+    "name": "Pummarola",
+    "stage_item_on": "Mad Forest, Moonglow, Boss Rash, Mt. Moonspell",
+    "type": "passive",
+    "unlock_via": "Surviving five minutes as Gennaro Belpaese."
+  },
+  {
+    "id": "soul-eater",
+    "description": "Evolved Garlic. Steals hearts. Power increases when recovering HP.",
+    "name": "Soul Eater",
+    "starting_weapon_for": "Peppino",
+    "type": "weapon",
+    "unlock_via": "Evolving Garlic using the Pummarola."
   },
   {
     "id": "spellbinder",

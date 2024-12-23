@@ -1,0 +1,25 @@
+---
+import WeaponEvolution from "../components/WeaponEvolution.astro";
+import WeaponTitle from "../components/WeaponTitle.astro";
+import Layout from "../layouts/Layout.astro";
+import WeaponLayout from "../layouts/WeaponLayout.astro";
+---
+<Layout>
+  <WeaponLayout>
+    <WeaponTitle
+      description="Fires at the nearest enemy."
+      iconSrc="/magic-wand.webp" 
+      ignores="Duration"
+      name="Magic Wand"
+    />
+    <WeaponEvolution 
+      lhs={[
+        { href: "/magic-wand", icon: "/magic-wand.webp", name: "Magic Wand" },
+        { href: "/empty-tome", icon: "/empty-tome.webp", name: "Empty Tome" },
+      ]}
+      rhs={[
+        { href: "/holy-wand", icon: "/holy-wand.webp", name: "Holy Wand" },
+      ]}
+    />
+  </WeaponLayout>
+</Layout>

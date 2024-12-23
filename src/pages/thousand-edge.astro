@@ -1,0 +1,24 @@
+---
+import WeaponEvolution from "../components/WeaponEvolution.astro";
+import WeaponTitle from "../components/WeaponTitle.astro";
+import Layout from "../layouts/Layout.astro";
+import WeaponLayout from "../layouts/WeaponLayout.astro";
+---
+<Layout>
+  <WeaponLayout>
+    <WeaponTitle
+      description="Evolved Knife. Fires with no delay."
+      iconSrc="/thousand-edge.webp" 
+      name="Thousand Edge"
+    />
+    <WeaponEvolution 
+      lhs={[
+        { href: "/knife", icon: "/knife.webp", name: "Knife" },
+        { href: "/bracer", icon: "/bracer.webp", name: "Bracer" },
+      ]}
+      rhs={[
+        { href: "/thousand-edge", icon: "/thousand-edge.webp", name: "Thousand Edge" },
+      ]}
+    />
+  </WeaponLayout>
+</Layout>

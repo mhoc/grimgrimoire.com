@@ -1,0 +1,33 @@
+---
+import WeaponEvolution from "../components/WeaponEvolution.astro";
+import WeaponTitle from "../components/WeaponTitle.astro";
+import Layout from "../layouts/Layout.astro";
+import WeaponLayout from "../layouts/WeaponLayout.astro";
+---
+<Layout>
+  <WeaponLayout>
+    <WeaponTitle
+      description="Increases projectile speed by 10%."
+      iconSrc="/bracer.webp" 
+      name="Bracer"
+    />
+    <WeaponEvolution 
+      lhs={[
+        { href: "/knife", icon: "/knife.webp", name: "Knife" },
+        { href: "/bracer", icon: "/bracer.webp", name: "Bracer" },
+      ]}
+      rhs={[
+        { href: "/thousand-edge", icon: "/thousand-edge.webp", name: "Thousand Edge" },
+      ]}
+    />
+    <WeaponEvolution 
+      lhs={[
+        { href: "/flash-arrow", icon: "/flash-arrow.webp", name: "Flash Arrow" },
+        { href: "/bracer", icon: "/bracer.webp", name: "Bracer" },
+      ]}
+      rhs={[
+        { href: "/millionaire", icon: "/millionaire.webp", name: "Millionaire" },
+      ]}
+    />
+  </WeaponLayout>
+</Layout>

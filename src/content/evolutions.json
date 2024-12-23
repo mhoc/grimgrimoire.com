@@ -15,6 +15,11 @@
     "right": [{ "id": "heaven-sword" }]
   },
   {
+    "id": "king-bible-spellbinder-unholy-vespers",
+    "left": [{ "id": "king-bible" }, { "id": "spellbinder" }],
+    "right": [{ "id": "unholy-vespers" }]
+  },
+  {
     "id": "knife-bracer-thousand-edge",
     "left": [{ "id": "knife" }, { "id": "bracer" }],
     "right": [{ "id": "thousand-edge" }]

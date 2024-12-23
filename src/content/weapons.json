@@ -21,7 +21,7 @@
     "name": "Bracer",
     "stage_item_on": "Gallo Tower, Moonglow, Boss Rash, Lake Foscari",
     "type": "passive",
-    "unlock_via": "Reach Level 4 on the King Bible."
+    "unlock_via": "Reaching Level 4 on the King Bible."
   },
   {
     "id": "candelabrador",
@@ -29,7 +29,7 @@
     "name": "Candelabrador",
     "stage_item_on": "Dairy Plant, Moonglow, Boss Rash, Mt. Moonspell",
     "type": "passive",
-    "unlock_via": "Reach Level 4 on the Santa Water."
+    "unlock_via": "Reaching Level 4 on the Santa Water."
   },
   {
     "id": "clover",
@@ -37,7 +37,7 @@
     "name": "Clover",
     "stage_item_on": "Mad Forest, Moonglow, Boss Rash, Lake Foscari",
     "type": "passive",
-    "unlock_via": "Find a little clover from a light source."
+    "unlock_via": "Finding a little clover from a light source."
   },
   {
     "id": "cross",
@@ -45,7 +45,7 @@
     "name": "Cross",
     "starting_weapon_for": "Krochi Freetto",
     "type": "weapon",
-    "unlock_via": "Find a rosary"
+    "unlock_via": "Finding a rosary"
   },
   {
     "id": "death-spiral",
@@ -61,7 +61,7 @@
     "name": "Empty Tome",
     "stage_item_on": "Inlaid Library, Moonglow, Boss Rash, Abyss Foscari",
     "type": "passive",
-    "unlock_via": "Hold six different weapons at once."
+    "unlock_via": "Holding six different weapons at once."
   },
   {
     "id": "fuwalafuwaloo",
@@ -93,7 +93,15 @@
     "name": "Holy Wand",
     "starting_weapon_for": "Leda",
     "type": "weapon",
-    "unlock_via": "Evolve the Magic Wand with an Empty Tome."
+    "unlock_via": "Evolving the Magic Wand with an Empty Tome."
+  },
+  {
+    "id": "king-bible",
+    "description": "Orbits around the character.",
+    "name": "King Bible",
+    "starting_weapon_for": "Dommario",
+    "type": "weapon",
+    "unlock_via": "Starting weapon."
   },
   {
     "id": "knife",
@@ -112,12 +120,27 @@
     "unlock_via": "Starting weapon."
   },
   {
+    "id": "spellbinder",
+    "description": "Increases duration of weapon effects by 10%.",
+    "name": "Spellbinder",
+    "stage_item_on": "Gallo Tower, Moonglow, Boss Rash",
+    "type": "passive",
+    "unlock_via": "Reaching Level 4 on the Runetracer."
+  },
+  {
     "id": "thousand-edge",
     "description": "Evolved Knife. Fires with no delay.",
     "name": "Thousand Edge",
     "starting_weapon_for": "Boon Marrabbio",
     "type": "weapon",
-    "unlock_via": "Evolve the Knife using the Bracer."
+    "unlock_via": "Evolving the Knife using the Bracer."
+  },
+  {
+    "id": "unholy-vespers",
+    "description": "Evolved King Bible. Never ends.",
+    "name": "Unholy Vespers",
+    "type": "weapon",
+    "unlock_via": "Evolving the King Bible using the Spellbinder."
   },
   {
     "id": "vento-sacro",

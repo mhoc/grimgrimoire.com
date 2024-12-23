@@ -40,7 +40,8 @@ export const WeaponList = ({ weapons }: Props) => {
           border: 0;
           color: #a8a29e;
           font-family: "Geist Mono";
-          height: 1.1rem;
+          font-size: 1.1rem;
+          height: 1.2rem;
           margin: 8px;
           outline: none;
           padding: 8px;

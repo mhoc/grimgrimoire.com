@@ -1,27 +1,31 @@
 ---
+import { getCollection, getEntry } from 'astro:content';
 import WeaponMenuIcon from './WeaponMenuIcon.astro';
 
+const weapons = await getCollection('weapons');
+
 type Props = {
-  lhs: Array<{
-    href: string;
-    icon: string;
-    name: string;
-  }>
-  rhs: Array<{
-    href: string;
-    icon: string;
-    name: string;
-  }>;
+  id: string;
 }
-const { lhs, rhs } = Astro.props;
+
+const { id } = Astro.props;
+const evolution = await getEntry("evolutions", id);
 ---
 <div class="container">
-  {lhs.map((lhsItem) => {
-    return <WeaponMenuIcon href={lhsItem.href} imageUrl={lhsItem.icon} name={lhsItem.name} />
+  {evolution?.data.left.map((left) => {
+    return <WeaponMenuIcon 
+      href={`/${left.id}`}
+      imageUrl={`/${left.id}.webp`}
+      name={`${weapons.find(w => w.data.id === left.id)?.data.name}${left.max ? " (max)" : ""}`} 
+    />
   })}
   <span class="arrow">-></span>
-  {rhs.map((rhsItem) => {
-    return <WeaponMenuIcon href={rhsItem.href} imageUrl={rhsItem.icon} name={rhsItem.name} />
+  {evolution?.data.right.map((right) => {
+    return <WeaponMenuIcon 
+      href={`/${right.id}`}
+      imageUrl={`/${right.id}.webp`}
+      name={`${weapons.find(w => w.data.id === right.id)?.data.name}${right.max ? " (max)" : ""}`}
+    />
   })}
 </div>
 <style>
@@ -32,6 +36,6 @@ const { lhs, rhs } = Astro.props;
     gap: 16px;
   }
   .arrow {
-    color: #e4e4e7;
+    color: #d6d3d1;
   }
 </style>

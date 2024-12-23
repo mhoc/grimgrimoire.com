@@ -13,6 +13,7 @@ const { href, imageUrl, large, name } = Astro.props;
 </a>
 <style>
   .container {
+    align-items: center;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -26,18 +27,9 @@ const { href, imageUrl, large, name } = Astro.props;
     max-height: 100px;
     max-width: 100px;
   }
-  @media only screen and (max-width: 600px) {
-    .img {
-      max-height: 60px;
-      max-width: 60px;
-    }
-    .img-large {
-      max-height: 25vw;
-      max-width: 25vw;
-    }
-  }
   .name {
-    color: #e4e4e7;
+    color: #d6d3d1;
     font-size: 0.6rem;
+    text-align: center;
   }
 </style>

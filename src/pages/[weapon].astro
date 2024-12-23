@@ -1,0 +1,112 @@
+---
+import { getCollection } from 'astro:content';
+
+import WeaponEvolution from "../components/WeaponEvolution.astro";
+import Layout from "../layouts/Layout.astro";
+
+export async function getStaticPaths() {
+  return (await getCollection('weapons')).map(weapon => ({
+    params: { weapon: weapon.id },
+    props: { weapon }
+  }))
+}
+
+const { weapon } = Astro.props;
+const type = weapon.data.type === "weapon" ? 'w' : 'p';
+
+const evolutions = (await getCollection("evolutions")).filter(evolution => {
+  return evolution.data.left.find(left => left.id === weapon.id)
+    || evolution.data.right.find(right => right.id === weapon.id);
+});
+
+---
+<Layout>
+  <div class="container">
+    <div class="title-container">
+      <a href="/">
+        <img class="icon" src={`/${weapon.id}.webp`} />
+      </a>
+      <div class="title-text-container">
+        <span class="name">{weapon.data.name} ({type})</span>
+        <span class="description">{weapon.data.description}</span>
+      </div>
+    </div>
+    {weapon.data.ignores && (
+      <div class="field-container">
+        <span class="field-key">Ignores</span>
+        <span class="field-value">{weapon.data.ignores}</span>
+      </div>
+    )}
+    <div class="field-container">
+      <span class="field-key">Unlocked by</span>
+      <span class="field-value">{weapon.data.unlock_via}</span>
+    </div>
+    {weapon.data.stage_item_on && (
+      <div class="field-container">
+        <span class="field-key">Stage Item On</span>
+        <span class="field-value">{weapon.data.stage_item_on}</span>
+      </div>
+    )}
+    {weapon.data.starting_weapon_for && (
+      <div class="field-container">
+        <span class="field-key">Starting weapon for</span>
+        <span class="field-value">{weapon.data.starting_weapon_for}</span>
+      </div>
+    )}
+    {evolutions.length > 0 && (
+      <div class="field-container">
+        <span class="field-key">Evolutions</span>
+        {evolutions.map(evolution => (
+          <WeaponEvolution id={evolution.id} />
+        ))}
+      </div>
+    )}
+  </div>
+</Layout>
+<style>
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.title-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.icon {
+  max-height: 100px;
+  max-width: 100px;
+}
+.title-text-container {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  color: #e7e5e4;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.description {
+  color: #e7e5e4;
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: 100;
+}
+.field-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 4px;
+}
+.field-key {
+  color: #e7e5e4;
+  font-size: 0.7rem;
+  font-style: italic;
+  font-weight: 100;
+}
+.field-value {
+  color: #e7e5e4;
+  font-size: 1rem;
+}
+</style>

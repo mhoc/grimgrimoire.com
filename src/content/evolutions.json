@@ -1,0 +1,32 @@
+[
+  {
+    "id": "axe-candelabrador-death-spiral",
+    "left": [{ "id": "axe" }, { "id": "candelabrador" }],
+    "right": [{ "id": "death-spiral" }]
+  },
+  {
+    "id": "bloody-tear-vento-sacro-fuwalafuwaloo",
+    "left": [{ "id": "bloody-tear" }, { "id": "vento-sacro", "max": true }],
+    "right": [{ "id": "fuwalafuwaloo" }]
+  },
+  {
+    "id": "cross-clover-heaven-sword",
+    "left": [{ "id": "cross" }, { "id": "clover" }],
+    "right": [{ "id": "heaven-sword" }]
+  },
+  {
+    "id": "knife-bracer-thousand-edge",
+    "left": [{ "id": "knife" }, { "id": "bracer" }],
+    "right": [{ "id": "thousand-edge" }]
+  },
+  {
+    "id": "magic-wand-empty-tome-holy-wand",
+    "left": [{ "id": "magic-wand" }, { "id": "empty-tome" }],
+    "right": [{ "id": "holy-wand" }]
+  },
+  {
+    "id": "whip-hollow-heart-bloody-tear",
+    "left": [{ "id": "whip" }, { "id": "hollow-heart" }],
+    "right": [{ "id": "bloody-tear" }]
+  }
+]

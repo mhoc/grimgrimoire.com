@@ -1,0 +1,139 @@
+[
+  {
+    "id": "axe",
+    "description": "High damage, high Area scaling.",
+    "name": "Axe",
+    "starting_weapon_for": "Lama Ladonna",
+    "type": "weapon",
+    "unlock_via": "Starting weapon."
+  },
+  {
+    "id": "bloody-tear",
+    "description": "Evolved Whip. Can deal critical damage and absorb HP.",
+    "name": "Bloody Tear",
+    "starting_weapon_for": "Minnah Mannarah",
+    "type": "weapon",
+    "unlock_via": "Evolving the Whip with the Hollow Heart."
+  },
+  {
+    "id": "bracer",
+    "description": "Increases projectile speed by 10%.",
+    "name": "Bracer",
+    "stage_item_on": "Gallo Tower, Moonglow, Boss Rash, Lake Foscari",
+    "type": "passive",
+    "unlock_via": "Reach Level 4 on the King Bible."
+  },
+  {
+    "id": "candelabrador",
+    "description": "Augments area of attacks by 10%.",
+    "name": "Candelabrador",
+    "stage_item_on": "Dairy Plant, Moonglow, Boss Rash, Mt. Moonspell",
+    "type": "passive",
+    "unlock_via": "Reach Level 4 on the Santa Water."
+  },
+  {
+    "id": "clover",
+    "description": "Character gets 10% luckier.",
+    "name": "Clover",
+    "stage_item_on": "Mad Forest, Moonglow, Boss Rash, Lake Foscari",
+    "type": "passive",
+    "unlock_via": "Find a little clover from a light source."
+  },
+  {
+    "id": "cross",
+    "description": "Aims at nearest enemy, has boomerang effect.",
+    "name": "Cross",
+    "starting_weapon_for": "Krochi Freetto",
+    "type": "weapon",
+    "unlock_via": "Find a rosary"
+  },
+  {
+    "id": "death-spiral",
+    "description": "Evolved Axe. Passes through enemies.",
+    "name": "Death Spiral",
+    "starting_weapon_for": "Mask of the Red Death, Death",
+    "type": "weapon",
+    "unlock_via": "Evolving the Axe with the Candelabrador."
+  },
+  {
+    "id": "empty-tome",
+    "description": "Reduces weapon cooldown by 8%.",
+    "name": "Empty Tome",
+    "stage_item_on": "Inlaid Library, Moonglow, Boss Rash, Abyss Foscari",
+    "type": "passive",
+    "unlock_via": "Hold six different weapons at once."
+  },
+  {
+    "id": "fuwalafuwaloo",
+    "description": "Union of Vento Sacro and Bloody Tear. Critical hits might generate explosions.",
+    "name": "Fuwalafuwaloo",
+    "starting_weapon_for": "Rose de Infernas",
+    "type": "weapon",
+    "unlock_via": "Evolving the Bloody Tear with Vento Sacro."
+  },
+  {
+    "id": "heaven-sword",
+    "description": "Evolved Cross. Can deal critical deamage.",
+    "name": "Heaven Sword",
+    "starting_weapon_for": "Gains Boros",
+    "type": "weapon",
+    "unlock_via": "Evolving the Cross with a Clover"
+  },
+  {
+    "id": "hollow-heart",
+    "description": "Augments max health by 20%",
+    "name": "Hollow Heart",
+    "stage_item_on": "Mad Forest, Moonglow, Boss Rash",
+    "type": "passive",
+    "unlock_via": "Surviving for one minute as any character."
+  },
+  {
+    "id": "holy-wand",
+    "description": "Evolved Magic Wand. Fires with no delay.",
+    "name": "Holy Wand",
+    "starting_weapon_for": "Leda",
+    "type": "weapon",
+    "unlock_via": "Evolve the Magic Wand with an Empty Tome."
+  },
+  {
+    "id": "knife",
+    "description": "Fires quickly in the faced direction.",
+    "name": "Knife",
+    "starting_weapon_for": "Gennaro Belpaese",
+    "type": "weapon",
+    "unlock_via": "Starting weapon."
+  },
+  {
+    "id": "magic-wand",
+    "description": "Fires at the nearest enemy",
+    "name": "Magic Wand",
+    "starting_weapon_for": "Imelda Belpaese",
+    "type": "weapon",
+    "unlock_via": "Starting weapon."
+  },
+  {
+    "id": "thousand-edge",
+    "description": "Evolved Knife. Fires with no delay.",
+    "name": "Thousand Edge",
+    "starting_weapon_for": "Boon Marrabbio",
+    "type": "weapon",
+    "unlock_via": "Evolve the Knife using the Bracer."
+  },
+  {
+    "id": "vento-sacro",
+    "description": "Stronger with continuous movement. Can deal critical damage.",
+    "name": "Vento Sacro",
+    "starting_weapon_for": "Zi'Assunta Belpaese",
+    "type": "weapon",
+    "unlock_via": "Surviving fifteen minutes with Zi'Assunta."
+  },
+  {
+    "id": "whip",
+    "description": "Attacks horizontally, passes through enemies.",
+    "ignores": "Speed, Duration",
+    "name": "Whip",
+    "starting_weapon_for": "Antonio Belpaese",
+    "type": "weapon",
+    "unlock_via": "Starting weapon"
+  }
+]

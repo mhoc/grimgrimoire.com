@@ -45,6 +45,11 @@
     "right": [{ "id": "holy-wand" }]
   },
   {
+    "id": "pentagram-crown",
+    "left": [{ "id": "pentagram" }, { "id": "crown" }],
+    "right": [{ "id": "gorgeous-moon" }]
+  },
+  {
     "id": "santa-water-attractorb-la-borra",
     "left": [{ "id": "santa-water" }, { "id": "attractorb" }],
     "right": [{ "id": "la-borra" }]

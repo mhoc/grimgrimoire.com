@@ -56,6 +56,14 @@
     "unlock_via": "Finding a rosary"
   },
   {
+    "id": "crown",
+    "description": "Character gains 8% more experience.",
+    "name": "Crown",
+    "stage_item_on": "Capella Magna, Moonglow Boss Rash, Lake Foscari, Abyss Foscari",
+    "type": "passive",
+    "unlock_via": "Reaching Level 10 as any character."
+  },
+  {
     "id": "death-spiral",
     "description": "Evolved Axe. Passes through enemies.",
     "name": "Death Spiral",
@@ -102,6 +110,13 @@
     "starting_weapon_for": "Poe Ratcho",
     "type": "weapon",
     "unlock_via": "Consuming five floor chickens."
+  },
+  {
+    "id": "gorgeous-moon",
+    "description": "Evolved Pentagram. Generates extra gems and gathers all of them.",
+    "name": "Gorgeous Moon",
+    "type": "weapon",
+    "unlock_via": "Evolving the Pentagram with the Crown"
   },
   {
     "id": "heaven-sword",
@@ -172,6 +187,15 @@
     "starting_weapon_for": "Imelda Belpaese",
     "type": "weapon",
     "unlock_via": "Starting weapon."
+  },
+  {
+    "id": "pentagram",
+    "description": "Erases everything in sight.",
+    "ignores": "Everything except Cooldown and Luck",
+    "name": "Pentagram",
+    "starting_weapon_for": "Christine Davain",
+    "type": "weapon",
+    "unlock_via": "Surviving for 20 minutes as any character."
   },
   {
     "id": "pummarola",

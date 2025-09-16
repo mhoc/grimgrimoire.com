@@ -64,6 +64,14 @@
     "unlock_via": "Evolving the Axe with the Candelabrador."
   },
   {
+    "id": "duplicator",
+    "description": "Weapons fire more projectiles.",
+    "name": "Duplicator",
+    "stage_item_on": "Capella Magna, Moonglow, Boss Rash, Mt. Moonspell",
+    "type": "passive",
+    "unlock_via": "Getting the Magic Wand to Level 7."
+  },
+  {
     "id": "empty-tome",
     "description": "Reduces weapon cooldown by 8%.",
     "name": "Empty Tome",
@@ -150,6 +158,14 @@
     "unlock_via": "Evolving the Santa Water with an Attractorb."
   },
   {
+    "id": "lightning-ring",
+    "description": "Strikes at random enemies.",
+    "name": "Lightning Ring",
+    "starting_weapon_for": "Porta Ladonna",
+    "type": "weapon",
+    "unlock_via": "Defeating 5,000 enemies."
+  },
+  {
     "id": "magic-wand",
     "description": "Fires at the nearest enemy",
     "name": "Magic Wand",
@@ -204,6 +220,13 @@
     "starting_weapon_for": "Boon Marrabbio",
     "type": "weapon",
     "unlock_via": "Evolving the Knife using the Bracer."
+  },
+  {
+    "id": "thunder-loop",
+    "description": "Evolved Lightning Ring. Projectiles strike twice.",
+    "name": "Thunder Loop",
+    "type": "weapon",
+    "unlock_via": "Evolving the Lightning Ring with the Duplicator."
   },
   {
     "id": "unholy-vespers",

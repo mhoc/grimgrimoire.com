@@ -28,7 +28,7 @@ export const WeaponList = ({ weapons }: Props) => {
           style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}
         >
           {filteredWeapons.map((weapon) => (
-            <a href={`/${weapon.id}`}>
+            <a href={`/${weapon.id}`} key={weapon.id}>
               <img className="item" src={`/${weapon.id}.webp`} />
             </a>
           ))}
@@ -42,7 +42,7 @@ export const WeaponList = ({ weapons }: Props) => {
           font-family: "Geist Mono";
           font-size: 1.1rem;
           height: 1.2rem;
-          margin: 8px;
+          margin-bottom: 8px;
           outline: none;
           padding: 8px;
           resize: none;

@@ -35,6 +35,11 @@
     "right": [{ "id": "thousand-edge" }]
   },
   {
+    "id": "lightning-ring-duplicator",
+    "left": [{ "id": "lightning-ring" }, { "id": "duplicator" }],
+    "right": [{ "id": "thunder-loop" } ]
+  },
+  {
     "id": "magic-wand-empty-tome-holy-wand",
     "left": [{ "id": "magic-wand" }, { "id": "empty-tome" }],
     "right": [{ "id": "holy-wand" }]

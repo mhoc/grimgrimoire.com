@@ -45,6 +45,11 @@
     "right": [{ "id": "holy-wand" }]
   },
   {
+    "id": "peachone-ebony-wings",
+    "left": [{ "id": "peachone" }, { "id": "ebony-wings" }],
+    "right": [{ "id": "vandalier" }]
+  },
+  {
     "id": "pentagram-crown",
     "left": [{ "id": "pentagram" }, { "id": "crown" }],
     "right": [{ "id": "gorgeous-moon" }]

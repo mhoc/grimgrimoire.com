@@ -80,6 +80,14 @@
     "unlock_via": "Getting the Magic Wand to Level 7."
   },
   {
+    "id": "ebony-wings",
+    "description": "Bombards in a circular area.",
+    "name": "Ebony Wings",
+    "starting_weapon_for": "Exdash Exiviiq",
+    "type": "weapon",
+    "unlock_via": "Getting Peachone to Level 7"
+  },
+  {
     "id": "empty-tome",
     "description": "Reduces weapon cooldown by 8%.",
     "name": "Empty Tome",
@@ -189,6 +197,14 @@
     "unlock_via": "Starting weapon."
   },
   {
+    "id": "peachone",
+    "description": "Bombards in a circular area.",
+    "name": "Peachone",
+    "starting_weapon_for": "Toastie",
+    "type": "weapon",
+    "unlock_via": "Surviving for 10 minutes as any character."
+  },
+  {
     "id": "pentagram",
     "description": "Erases everything in sight.",
     "ignores": "Everything except Cooldown and Luck",
@@ -258,6 +274,14 @@
     "name": "Unholy Vespers",
     "type": "weapon",
     "unlock_via": "Evolving the King Bible using the Spellbinder."
+  },
+  {
+    "id": "vandalier",
+    "description": "Union of Peachone and Ebony Wings.",
+    "name": "Vandalier",
+    "starting_weapon_for": "Smith IV",
+    "type": "weapon",
+    "unlock_via": "Combining Peachone and Ebony Wings."
   },
   {
     "id": "vento-sacro",

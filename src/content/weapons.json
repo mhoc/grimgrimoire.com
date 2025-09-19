@@ -88,6 +88,15 @@
     "unlock_via": "Getting Peachone to Level 7"
   },
   {
+    "id": "eight-the-sparrow",
+    "description": "Fires quickly in four fixed directions.",
+    "name": "Eight The Sparrow",
+    "starting_weapon_for": "Pugnala Provola",
+    "ignores": "Duration",
+    "type": "weapon",
+    "unlock_via": "Surviving 15 minutes with Pugnala."
+  },
+  {
     "id": "empty-tome",
     "description": "Reduces weapon cooldown by 8%.",
     "name": "Empty Tome",
@@ -214,6 +223,23 @@
     "unlock_via": "Surviving for 20 minutes as any character."
   },
   {
+    "id": "phiera-der-tuphello",
+    "description": "Fires quickly in four fixed directions.",
+    "ignores": "Duration",
+    "name": "Phiera Der Tuphello",
+    "starting_weapon_for": "Pugnala Provola",
+    "type": "weapon",
+    "unlock_via": "Surviving 10 minutes with Pugnala."
+  },
+  {
+    "id": "phieraggi",
+    "description": "Union of Phiera Der Tuphello and Eight The Sparrow. Scales with Revivals.",
+    "ignores": "Duration",
+    "name": "Phieraggi",
+    "type": "weapon",
+    "unlock_via": "Evolving Phiera Der Tuphello and Eight The Sparrow with the Tirajisu."
+  },
+  {
     "id": "pummarola",
     "description": "Character recovers 0.2HP per-second.",
     "name": "Pummarola",
@@ -267,6 +293,14 @@
     "name": "Thunder Loop",
     "type": "weapon",
     "unlock_via": "Evolving the Lightning Ring with the Duplicator."
+  },
+  {
+    "id": "tirajisu",
+    "description": "Revives once with 50% health.",
+    "name": "Tirajisu",
+    "stage_item_on": "Cappella Magna, Moongolow, Boss Rash and Ode to Castlevania.",
+    "type": "passive",
+    "unlock_via": "Surviving for 20 minutes as Krochi Freetto."
   },
   {
     "id": "unholy-vespers",

@@ -3,7 +3,6 @@
     "id": "armor",
     "description": "Reduces incoming damage by 1.",
     "name": "Armor",
-    "stage_item_on": "Dairy Plant, Moongolow, Boss Rash, Lake Foscari, and Abyss Foscari",
     "type": "passive",
     "unlock_via": "Default"
   },
@@ -11,7 +10,6 @@
     "id": "attractorb",
     "description": "Character pickups items from further away.",
     "name": "Attractorb",
-    "stage_item_on": "Dairy Plant, Moonglow, Boss Rash, Tiny Bridge, Mt. Moonspell, Abyss Foscari",
     "type": "passive",
     "unlock_via": "Finding a vacuum dropped by a light source."
   },
@@ -35,7 +33,6 @@
     "id": "bracer",
     "description": "Increases projectile speed by 10%.",
     "name": "Bracer",
-    "stage_item_on": "Gallo Tower, Moonglow, Boss Rash, Lake Foscari",
     "type": "passive",
     "unlock_via": "Reaching Level 4 on the King Bible."
   },
@@ -43,7 +40,6 @@
     "id": "candelabrador",
     "description": "Augments area of attacks by 10%.",
     "name": "Candelabrador",
-    "stage_item_on": "Dairy Plant, Moonglow, Boss Rash, Mt. Moonspell",
     "type": "passive",
     "unlock_via": "Reaching Level 4 on the Santa Water."
   },
@@ -51,7 +47,6 @@
     "id": "clover",
     "description": "Character gets 10% luckier.",
     "name": "Clover",
-    "stage_item_on": "Mad Forest, Moonglow, Boss Rash, Lake Foscari",
     "type": "passive",
     "unlock_via": "Finding a little clover from a light source."
   },
@@ -67,7 +62,6 @@
     "id": "crown",
     "description": "Character gains 8% more experience.",
     "name": "Crown",
-    "stage_item_on": "Capella Magna, Moonglow Boss Rash, Lake Foscari, Abyss Foscari",
     "type": "passive",
     "unlock_via": "Reaching Level 10 as any character."
   },
@@ -83,7 +77,6 @@
     "id": "duplicator",
     "description": "Weapons fire more projectiles.",
     "name": "Duplicator",
-    "stage_item_on": "Capella Magna, Moonglow, Boss Rash, Mt. Moonspell",
     "type": "passive",
     "unlock_via": "Getting the Magic Wand to Level 7."
   },
@@ -100,7 +93,6 @@
     "description": "Fires quickly in four fixed directions.",
     "name": "Eight The Sparrow",
     "starting_weapon_for": "Pugnala Provola",
-    "ignores": "Duration",
     "type": "weapon",
     "unlock_via": "Surviving 15 minutes with Pugnala."
   },
@@ -108,7 +100,6 @@
     "id": "empty-tome",
     "description": "Reduces weapon cooldown by 8%.",
     "name": "Empty Tome",
-    "stage_item_on": "Inlaid Library, Moonglow, Boss Rash, Abyss Foscari",
     "type": "passive",
     "unlock_via": "Holding six different weapons at once."
   },
@@ -137,6 +128,14 @@
     "unlock_via": "Consuming five floor chickens."
   },
   {
+    "id": "gatti-amari",
+    "description": "Summons capricious projectiles. Might interact with pickups.",
+    "name": "Gatti Amari",
+    "starting_weapon_for": "Giovanna Grana",
+    "type": "weapon",
+    "unlock_via": "Surviving 15 minutes with Giovanna Grana"
+  },
+  {
     "id": "gorgeous-moon",
     "description": "Evolved Pentagram. Generates extra gems and gathers all of them.",
     "name": "Gorgeous Moon",
@@ -162,7 +161,6 @@
     "id": "hollow-heart",
     "description": "Augments max health by 20%",
     "name": "Hollow Heart",
-    "stage_item_on": "Mad Forest, Moonglow, Boss Rash",
     "type": "passive",
     "unlock_via": "Surviving for one minute as any character."
   },
@@ -232,7 +230,6 @@
   {
     "id": "pentagram",
     "description": "Erases everything in sight.",
-    "ignores": "Everything except Cooldown and Luck",
     "name": "Pentagram",
     "starting_weapon_for": "Christine Davain",
     "type": "weapon",
@@ -241,7 +238,6 @@
   {
     "id": "phiera-der-tuphello",
     "description": "Fires quickly in four fixed directions.",
-    "ignores": "Duration",
     "name": "Phiera Der Tuphello",
     "starting_weapon_for": "Pugnala Provola",
     "type": "weapon",
@@ -250,7 +246,6 @@
   {
     "id": "phieraggi",
     "description": "Union of Phiera Der Tuphello and Eight The Sparrow. Scales with Revivals.",
-    "ignores": "Duration",
     "name": "Phieraggi",
     "type": "weapon",
     "unlock_via": "Evolving Phiera Der Tuphello and Eight The Sparrow with the Tirajisu."
@@ -259,7 +254,6 @@
     "id": "pummarola",
     "description": "Character recovers 0.2HP per-second.",
     "name": "Pummarola",
-    "stage_item_on": "Mad Forest, Moonglow, Boss Rash, Mt. Moonspell",
     "type": "passive",
     "unlock_via": "Surviving five minutes as Gennaro Belpaese."
   },
@@ -291,7 +285,6 @@
     "id": "spellbinder",
     "description": "Increases duration of weapon effects by 10%.",
     "name": "Spellbinder",
-    "stage_item_on": "Gallo Tower, Moonglow, Boss Rash",
     "type": "passive",
     "unlock_via": "Reaching Level 4 on the Runetracer."
   },
@@ -299,9 +292,15 @@
     "id": "spinach",
     "description": "Raises inflicted damage by 20%",
     "name": "Spinach",
-    "stage_item_on": "Mad Forest, Moonglow, Boss Rash, Mt. Moonspell",
     "type": "passive",
     "unlock_via": "Starting passive item."
+  },
+  {
+    "id": "stone-mask",
+    "description": "Character earns 10% more coins.",
+    "name": "Stone Mask",
+    "type": "passive",
+    "unlock_via": "Finding it as a stage item for the first time."
   },
   {
     "id": "thousand-edge",
@@ -322,7 +321,6 @@
     "id": "tirajisu",
     "description": "Revives once with 50% health.",
     "name": "Tirajisu",
-    "stage_item_on": "Cappella Magna, Moongolow, Boss Rash and Ode to Castlevania.",
     "type": "passive",
     "unlock_via": "Surviving for 20 minutes as Krochi Freetto."
   },
@@ -350,9 +348,15 @@
     "unlock_via": "Surviving fifteen minutes with Zi'Assunta."
   },
   {
+    "id": "vicious-hunger",
+    "description": "Evolved Gatti Amari. Might turn anything into gold.",
+    "name": "Vicious Hunger",
+    "type": "weapon",
+    "unlock_via": "Evolving Gatti Amari with the Stone Mask"
+  },
+  {
     "id": "whip",
     "description": "Attacks horizontally, passes through enemies.",
-    "ignores": "Speed, Duration",
     "name": "Whip",
     "starting_weapon_for": "Antonio Belpaese",
     "type": "weapon",

@@ -25,6 +25,11 @@
     "right": [{ "id": "soul-eater" }]
   },
   {
+    "id": "gatti-amari-stone-mask",
+    "left": [{ "id": "gatti-amari" }, { "id": "stone-mask" }],
+    "right": [{ "id": "vicious-hunger" }]
+  },
+  {
     "id": "king-bible-spellbinder-unholy-vespers",
     "left": [{ "id": "king-bible" }, { "id": "spellbinder" }],
     "right": [{ "id": "unholy-vespers" }]

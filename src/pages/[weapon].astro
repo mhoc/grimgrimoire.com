@@ -31,22 +31,10 @@ const evolutions = (await getCollection("evolutions")).filter(evolution => {
         <span class="description">{weapon.data.description}</span>
       </div>
     </div>
-    {weapon.data.ignores && (
-      <div class="field-container">
-        <span class="field-key">Ignores</span>
-        <span class="field-value">{weapon.data.ignores}</span>
-      </div>
-    )}
     <div class="field-container">
       <span class="field-key">Unlocked by</span>
       <span class="field-value">{weapon.data.unlock_via}</span>
     </div>
-    {weapon.data.stage_item_on && (
-      <div class="field-container">
-        <span class="field-key">Stage Item On</span>
-        <span class="field-value">{weapon.data.stage_item_on}</span>
-      </div>
-    )}
     {weapon.data.starting_weapon_for && (
       <div class="field-container">
         <span class="field-key">Starting weapon for</span>

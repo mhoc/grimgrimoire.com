@@ -25,9 +25,7 @@ const weapons = defineCollection({
   schema: z.object({
     description: z.string(),
     id: z.string(),
-    ignores: z.union([z.null(), z.undefined(), z.string()]),
     name: z.string(),
-    stage_item_on: z.union([z.null(), z.undefined(), z.string()]),
     starting_weapon_for: z.union([z.null(), z.undefined(), z.string()]),
     type: z.enum(["weapon", "passive"]),
     unlock_via: z.string(),

@@ -60,6 +60,11 @@
     "right": [{ "id": "phieraggi" }]
   },
   {
+    "id": "runetracer-armor",
+    "left": [{ "id": "runetracer" }, { "id": "armor" }],
+    "right": [{ "id": "no-future" }]
+  },
+  {
     "id": "santa-water-attractorb-la-borra",
     "left": [{ "id": "santa-water" }, { "id": "attractorb" }],
     "right": [{ "id": "la-borra" }]

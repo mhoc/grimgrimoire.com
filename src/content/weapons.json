@@ -1,5 +1,13 @@
 [
   {
+    "id": "armor",
+    "description": "Reduces incoming damage by 1.",
+    "name": "Armor",
+    "stage_item_on": "Dairy Plant, Moongolow, Boss Rash, Lake Foscari, and Abyss Foscari",
+    "type": "passive",
+    "unlock_via": "Default"
+  },
+  {
     "id": "attractorb",
     "description": "Character pickups items from further away.",
     "name": "Attractorb",
@@ -206,6 +214,14 @@
     "unlock_via": "Starting weapon."
   },
   {
+    "id": "no-future",
+    "description": "Evolved Runetracer. Explodes when bouncing and in retaliation.",
+    "name": "NO FUTURE",
+    "starting_weapon_for": "Gyoruntin",
+    "type": "weapon",
+    "unlock_via": "Evolving the Runetracer with the Armor"
+  },
+  {
     "id": "peachone",
     "description": "Bombards in a circular area.",
     "name": "Peachone",
@@ -246,6 +262,14 @@
     "stage_item_on": "Mad Forest, Moonglow, Boss Rash, Mt. Moonspell",
     "type": "passive",
     "unlock_via": "Surviving five minutes as Gennaro Belpaese."
+  },
+  {
+    "id": "runetracer",
+    "description": "Passes through enemies, bounces around.",
+    "name": "Runetracer",
+    "starting_weapon_for": "Pasqualina Belpaese",
+    "type": "weapon",
+    "unlock_via": "Surviving 5 minutes as Pasqualina"
   },
   {
     "id": "santa-water",

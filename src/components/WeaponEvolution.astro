@@ -1,5 +1,6 @@
 ---
 import { getCollection, getEntry } from 'astro:content';
+import { CircleArrowRight } from '@lucide/astro';
 import WeaponMenuIcon from './WeaponMenuIcon.astro';
 
 const weapons = await getCollection('weapons');
@@ -12,30 +13,47 @@ const { id } = Astro.props;
 const evolution = await getEntry("evolutions", id);
 ---
 <div class="container">
-  {evolution?.data.left.map((left) => {
-    return <WeaponMenuIcon 
-      href={`/${left.id}`}
-      imageUrl={`/${left.id}.webp`}
-      name={`${weapons.find(w => w.data.id === left.id)?.data.name}${left.max ? " (max)" : ""}`} 
-    />
-  })}
-  <span class="arrow">-></span>
-  {evolution?.data.right.map((right) => {
-    return <WeaponMenuIcon 
+  <div class="weapon-container">
+    {evolution?.data.left.map((left) => (
+      <WeaponMenuIcon
+        href={`/${left.id}`}
+        imageUrl={`/${left.id}.webp`}
+        name={`${weapons.find(w => w.data.id === left.id)?.data.name}${left.max ? " (max)" : ""}`} 
+      />
+    ))}
+  </div>
+  <CircleArrowRight class="arrow" />
+  {evolution?.data.right.map((right) => (
+    <WeaponMenuIcon
       href={`/${right.id}`}
       imageUrl={`/${right.id}.webp`}
       name={`${weapons.find(w => w.data.id === right.id)?.data.name}${right.max ? " (max)" : ""}`}
     />
-  })}
+  ))}
 </div>
 <style>
   .container {
-    align-items: center;
+    background-color: oklch(26.8% 0.007 34.298);
+    border-radius: 8px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 16px;
+    padding: 16px;
+    width: fit-content;
+  }
+  .weapon-container {
+    display: flex;
+    flex-direction: row;
+  }
+  @media (max-width: 600px) {
+    .weapon-container {
+      display: flex;
+      flex-direction: column;
+    }
   }
   .arrow {
-    color: #d6d3d1;
+    align-self: center;
+    color: oklch(55.3% 0.013 58.071);
   }
 </style>

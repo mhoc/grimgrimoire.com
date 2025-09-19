@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 }
 
 const { weapon } = Astro.props;
-const type = weapon.data.type === "weapon" ? 'w' : 'p';
+const type = weapon.data.type === "weapon" ? 'Weapon' : 'Passive';
 
 const evolutions = (await getCollection("evolutions")).filter(evolution => {
   return evolution.data.left.find(left => left.id === weapon.id)
@@ -27,7 +27,8 @@ const evolutions = (await getCollection("evolutions")).filter(evolution => {
         <img class="icon" src={`/${weapon.id}.webp`} />
       </a>
       <div class="title-text-container">
-        <span class="name">{weapon.data.name} ({type})</span>
+        <span class="name">{weapon.data.name}</span>
+        <span class="description">{type}</span>
         <span class="description">{weapon.data.description}</span>
       </div>
     </div>
@@ -93,6 +94,7 @@ const evolutions = (await getCollection("evolutions")).filter(evolution => {
   font-size: 0.7rem;
   font-style: italic;
   font-weight: 100;
+  margin-bottom: 4px;
 }
 .field-value {
   color: #e7e5e4;

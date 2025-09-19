@@ -54,8 +54,8 @@ export const WeaponList = ({ weapons }: Props) => {
         }
         @media (max-width: 600px) {
           .item {
-            max-height: 25vw;
-            max-width: 25vw;
+            max-height: 24vw;
+            max-width: 24vw;
           }
         }
       `}</style>

@@ -75,6 +75,11 @@
     "right": [{ "id": "la-borra" }]
   },
   {
+    "id": "shadow-pinion-wings",
+    "left": [{ "id": "shadow-pinion" }, { "id": "wings" }],
+    "right": [{ "id": "valkyrie-turner" }]
+  },
+  {
     "id": "song-of-mana-skull-o-maniac",
     "left": [{ "id": "song-of-mana" }, { "id": "skull-o-maniac" }],
     "right": [{ "id": "mannajja" }]

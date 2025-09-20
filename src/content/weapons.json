@@ -281,6 +281,14 @@
     "unlock_via": "Starting weapon."
   },
   {
+    "id": "shadow-pinion",
+    "description": "Generates damaging zones when moving, strikes when stopping.",
+    "name": "Shadow Pinion",
+    "starting_weapon_for": "Concetta Caciotta",
+    "type": "weapon",
+    "unlock_via": "Surviving 15 minutes with Concetta."
+  },
+  {
     "id": "skull-o-maniac",
     "description": "Increases enemy speed, health, quantity, and frequency by 10%.",
     "name": "Skull O'Maniac",
@@ -354,6 +362,13 @@
     "unlock_via": "Evolving the King Bible using the Spellbinder."
   },
   {
+    "id": "valkyrie-turner",
+    "description": "Evolved Shadow Pinion. Bigger, longer, faster, stronger.",
+    "name": "Valkyrie Turner",
+    "type": "weapon",
+    "unlock_via": "Evolve the Shadow Pinion with the Wings"
+  },
+  {
     "id": "vandalier",
     "description": "Union of Peachone and Ebony Wings.",
     "name": "Vandalier",
@@ -383,5 +398,12 @@
     "starting_weapon_for": "Antonio Belpaese",
     "type": "weapon",
     "unlock_via": "Starting weapon"
+  },
+  {
+    "id": "wings",
+    "description": "Character moves 10% faster.",
+    "name": "Wings",
+    "type": "passive",
+    "unlock_via": "Reach Level 5 as any character."
   }
 ]

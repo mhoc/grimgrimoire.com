@@ -212,6 +212,13 @@
     "unlock_via": "Starting weapon."
   },
   {
+    "id": "mannajja",
+    "description": "Evolved Song of Mana. Might slow enemies down.",
+    "name": "Mannajja",
+    "type": "weapon",
+    "unlock_via": "Evovling the Song of Mana with the Skull O'Maniac."
+  },
+  {
     "id": "no-future",
     "description": "Evolved Runetracer. Explodes when bouncing and in retaliation.",
     "name": "NO FUTURE",
@@ -272,6 +279,21 @@
     "starting_weapon_for": "Suor Clerici",
     "type": "weapon",
     "unlock_via": "Starting weapon."
+  },
+  {
+    "id": "skull-o-maniac",
+    "description": "Increases enemy speed, health, quantity, and frequency by 10%.",
+    "name": "Skull O'Maniac",
+    "type": "passive",
+    "unlock_via": "Surviving 30 minutes with Lama"
+  },
+  {
+    "id": "song-of-mana",
+    "description": "Attacks vertically, passes through enemies.",
+    "name": "Song of Mana",
+    "starting_weapon_for": "Poppea Pecorina",
+    "type": "weapon",
+    "unlock_via": "Surviving 15 minutes with Poppea"
   },
   {
     "id": "soul-eater",

@@ -75,6 +75,11 @@
     "right": [{ "id": "la-borra" }]
   },
   {
+    "id": "song-of-mana-skull-o-maniac",
+    "left": [{ "id": "song-of-mana" }, { "id": "skull-o-maniac" }],
+    "right": [{ "id": "mannajja" }]
+  },
+  {
     "id": "whip-hollow-heart-bloody-tear",
     "left": [{ "id": "whip" }, { "id": "hollow-heart" }],
     "right": [{ "id": "bloody-tear" }]

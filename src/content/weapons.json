@@ -59,6 +59,13 @@
     "unlock_via": "Finding a little clover from a light source."
   },
   {
+    "id": "crimson-shroud",
+    "description": "Evolved Laurel. Caps incoming damage at 10. Retaliates when losing charges.",
+    "name": "Crimson Shroud",
+    "type": "weapon",
+    "unlock_via": "Evolving the Laurel with the Metaglio Left and Metaglio Right"
+  },
+  {
     "id": "cross",
     "description": "Aims at nearest enemy, has boomerang effect.",
     "name": "Cross",
@@ -233,6 +240,14 @@
     "unlock_via": "Evolving the Santa Water with an Attractorb."
   },
   {
+    "id": "laurel",
+    "description": "Shields from damage while active.",
+    "name": "Laurel",
+    "starting_weapon_for": "Divano Thelma",
+    "type": "weapon",
+    "unlock_via": "Default"
+  },
+  {
     "id": "lightning-ring",
     "description": "Strikes at random enemies.",
     "name": "Lightning Ring",
@@ -254,6 +269,20 @@
     "name": "Mannajja",
     "type": "weapon",
     "unlock_via": "Evovling the Song of Mana with the Skull O'Maniac."
+  },
+  {
+    "id": "metaglio-left",
+    "description": "Channels dark powers to protect the bearer.",
+    "name": "Metaglio Left",
+    "type": "passive",
+    "unlock_via": "Found as a stage item after collecting the Yellow Card"
+  },
+  {
+    "id": "metaglio-right",
+    "description": "Channels dark powers to curse the bearer.",
+    "name": "Metaglio Right",
+    "type": "passive",
+    "unlock_via": "Found as a stage item after collecting the Yellow Card"
   },
   {
     "id": "no-future",

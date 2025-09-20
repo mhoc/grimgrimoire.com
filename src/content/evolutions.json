@@ -50,6 +50,11 @@
     "right": [{ "id": "thousand-edge" }]
   },
   {
+    "id": "laurel-metaglio-left-metaglio-right",
+    "left": [{ "id": "laurel" }, { "id": "metaglio-left" }, { "id": "metaglio-right" }],
+    "right": [{ "id": "crimson-shroud" }]
+  },
+  {
     "id": "lightning-ring-duplicator",
     "left": [{ "id": "lightning-ring" }, { "id": "duplicator" }],
     "right": [{ "id": "thunder-loop" } ]

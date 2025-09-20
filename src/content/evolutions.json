@@ -1,107 +1,112 @@
 [
   {
     "id": "axe-candelabrador-death-spiral",
-    "left": [{ "id": "axe" }, { "id": "candelabrador" }],
-    "right": [{ "id": "death-spiral" }]
+    "left": [{ "weapon": "axe" }, { "weapon": "candelabrador" }],
+    "right": [{ "weapon": "death-spiral" }]
   },
   {
     "id": "bloody-tear-vento-sacro-fuwalafuwaloo",
-    "left": [{ "id": "bloody-tear" }, { "id": "vento-sacro", "max": true }],
-    "right": [{ "id": "fuwalafuwaloo" }]
+    "left": [{ "weapon": "bloody-tear" }, { "weapon": "vento-sacro", "note": "max" }],
+    "right": [{ "weapon": "fuwalafuwaloo" }]
+  },
+  {
+    "id": "bone-mortaccio-chaos-malachite",
+    "left": [{ "weapon": "bone" }, { "character": "mortaccio", "note": "80" }, { "relic": "chaos-malachite" }],
+    "right": [{ "weapon": "anima-of-mortaccio" }]
   },
   {
     "id": "clock-lancet-silver-ring-gold-ring",
-    "left": [{ "id": "clock-lancet" }, { "id": "silver-ring" }, { "id": "gold-ring" }],
-    "right": [{ "id": "infinite-corridor" }]
+    "left": [{ "weapon": "clock-lancet" }, { "weapon": "silver-ring" }, { "weapon": "gold-ring" }],
+    "right": [{ "weapon": "infinite-corridor" }]
   },
   {
     "id": "cross-clover-heaven-sword",
-    "left": [{ "id": "cross" }, { "id": "clover" }],
-    "right": [{ "id": "heaven-sword" }]
+    "left": [{ "weapon": "cross" }, { "weapon": "clover" }],
+    "right": [{ "weapon": "heaven-sword" }]
   },
   {
     "id": "fire-wand-spinach-hellfire",
-    "left": [{ "id": "fire-wand" }, { "id": "spinach" }],
-    "right": [{ "id": "hellfire" }]
+    "left": [{ "weapon": "fire-wand" }, { "weapon": "spinach" }],
+    "right": [{ "weapon": "hellfire" }]
   },
   {
     "id": "four-seasons-candelabrador",
-    "left": [{ "id": "four-seasons" }, { "id": "candelabrador" }],
-    "right": [{ "id": "godai-shuffle" }]
+    "left": [{ "weapon": "four-seasons" }, { "weapon": "candelabrador" }],
+    "right": [{ "weapon": "godai-shuffle" }]
   },
   {
     "id": "garlic-pummarola-soul-eater",
-    "left": [{ "id": "garlic" }, { "id": "pummarola" }],
-    "right": [{ "id": "soul-eater" }]
+    "left": [{ "weapon": "garlic" }, { "weapon": "pummarola" }],
+    "right": [{ "weapon": "soul-eater" }]
   },
   {
     "id": "gatti-amari-stone-mask",
-    "left": [{ "id": "gatti-amari" }, { "id": "stone-mask" }],
-    "right": [{ "id": "vicious-hunger" }]
+    "left": [{ "weapon": "gatti-amari" }, { "weapon": "stone-mask" }],
+    "right": [{ "weapon": "vicious-hunger" }]
   },
   {
     "id": "king-bible-spellbinder-unholy-vespers",
-    "left": [{ "id": "king-bible" }, { "id": "spellbinder" }],
-    "right": [{ "id": "unholy-vespers" }]
+    "left": [{ "weapon": "king-bible" }, { "weapon": "spellbinder" }],
+    "right": [{ "weapon": "unholy-vespers" }]
   },
   {
     "id": "knife-bracer-thousand-edge",
-    "left": [{ "id": "knife" }, { "id": "bracer" }],
-    "right": [{ "id": "thousand-edge" }]
+    "left": [{ "weapon": "knife" }, { "weapon": "bracer" }],
+    "right": [{ "weapon": "thousand-edge" }]
   },
   {
     "id": "laurel-metaglio-left-metaglio-right",
-    "left": [{ "id": "laurel" }, { "id": "metaglio-left" }, { "id": "metaglio-right" }],
-    "right": [{ "id": "crimson-shroud" }]
+    "left": [{ "weapon": "laurel" }, { "weapon": "metaglio-left" }, { "weapon": "metaglio-right" }],
+    "right": [{ "weapon": "crimson-shroud" }]
   },
   {
     "id": "lightning-ring-duplicator",
-    "left": [{ "id": "lightning-ring" }, { "id": "duplicator" }],
-    "right": [{ "id": "thunder-loop" } ]
+    "left": [{ "weapon": "lightning-ring" }, { "weapon": "duplicator" }],
+    "right": [{ "weapon": "thunder-loop" } ]
   },
   {
     "id": "magic-wand-empty-tome-holy-wand",
-    "left": [{ "id": "magic-wand" }, { "id": "empty-tome" }],
-    "right": [{ "id": "holy-wand" }]
+    "left": [{ "weapon": "magic-wand" }, { "weapon": "empty-tome" }],
+    "right": [{ "weapon": "holy-wand" }]
   },
   {
     "id": "peachone-ebony-wings",
-    "left": [{ "id": "peachone" }, { "id": "ebony-wings" }],
-    "right": [{ "id": "vandalier" }]
+    "left": [{ "weapon": "peachone" }, { "weapon": "ebony-wings" }],
+    "right": [{ "weapon": "vandalier" }]
   },
   {
     "id": "pentagram-crown",
-    "left": [{ "id": "pentagram" }, { "id": "crown" }],
-    "right": [{ "id": "gorgeous-moon" }]
+    "left": [{ "weapon": "pentagram" }, { "weapon": "crown" }],
+    "right": [{ "weapon": "gorgeous-moon" }]
   },
   {
     "id": "phiera-der-tuphello-eight-the-sparrow-tirajisu",
-    "left": [{ "id": "phiera-der-tuphello" }, { "id": "eight-the-sparrow" }, { "id": "tirajisu" }],
-    "right": [{ "id": "phieraggi" }]
+    "left": [{ "weapon": "phiera-der-tuphello" }, { "weapon": "eight-the-sparrow" }, { "weapon": "tirajisu" }],
+    "right": [{ "weapon": "phieraggi" }]
   },
   {
     "id": "runetracer-armor",
-    "left": [{ "id": "runetracer" }, { "id": "armor" }],
-    "right": [{ "id": "no-future" }]
+    "left": [{ "weapon": "runetracer" }, { "weapon": "armor" }],
+    "right": [{ "weapon": "no-future" }]
   },
   {
     "id": "santa-water-attractorb-la-borra",
-    "left": [{ "id": "santa-water" }, { "id": "attractorb" }],
-    "right": [{ "id": "la-borra" }]
+    "left": [{ "weapon": "santa-water" }, { "weapon": "attractorb" }],
+    "right": [{ "weapon": "la-borra" }]
   },
   {
     "id": "shadow-pinion-wings",
-    "left": [{ "id": "shadow-pinion" }, { "id": "wings" }],
-    "right": [{ "id": "valkyrie-turner" }]
+    "left": [{ "weapon": "shadow-pinion" }, { "weapon": "wings" }],
+    "right": [{ "weapon": "valkyrie-turner" }]
   },
   {
     "id": "song-of-mana-skull-o-maniac",
-    "left": [{ "id": "song-of-mana" }, { "id": "skull-o-maniac" }],
-    "right": [{ "id": "mannajja" }]
+    "left": [{ "weapon": "song-of-mana" }, { "weapon": "skull-o-maniac" }],
+    "right": [{ "weapon": "mannajja" }]
   },
   {
     "id": "whip-hollow-heart-bloody-tear",
-    "left": [{ "id": "whip" }, { "id": "hollow-heart" }],
-    "right": [{ "id": "bloody-tear" }]
+    "left": [{ "weapon": "whip" }, { "weapon": "hollow-heart" }],
+    "right": [{ "weapon": "bloody-tear" }]
   }
 ]

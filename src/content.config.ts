@@ -1,22 +1,42 @@
 import { defineCollection, z } from "astro:content";
 import { file } from "astro/loaders";
 
+const characters = defineCollection({
+  loader: file("src/content/characters.json"),
+  schema: z.object({
+    id: z.string(),
+    name: z.string(),
+  }),
+});
+
 const evolutions = defineCollection({
   loader: file("src/content/evolutions.json"),
   schema: z.object({
     id: z.string(),
     left: z.array(
       z.object({
-        id: z.string(),
-        max: z.union([z.null(), z.undefined(), z.boolean()]),
+        character: z.union([ z.null(), z.undefined(), z.string() ]),
+        note: z.union([z.null(), z.undefined(), z.string()]),
+        relic: z.union([ z.null(), z.undefined(), z.string() ]),
+        weapon: z.union([ z.null(), z.undefined(), z.string() ]),
       })
     ),
     right: z.array(
       z.object({
-        id: z.string(),
-        max: z.union([z.null(), z.undefined(), z.boolean()]),
+        character: z.union([ z.null(), z.undefined(), z.string() ]),
+        note: z.union([z.null(), z.undefined(), z.string()]),
+        relic: z.union([ z.null(), z.undefined(), z.string() ]),
+        weapon: z.union([ z.null(), z.undefined(), z.string()]),
       })
     ),
+  }),
+});
+
+const relics = defineCollection({
+  loader: file("src/content/relics.json"),
+  schema: z.object({
+    id: z.string(),
+    name: z.string(),
   }),
 });
 
@@ -32,4 +52,4 @@ const weapons = defineCollection({
   }),
 });
 
-export const collections = { evolutions, weapons };
+export const collections = { characters, evolutions, relics, weapons };

@@ -1,19 +1,25 @@
 ---
 type Props = {
-  href: string;
+  href?: string;
   imageUrl: string;
   name?: string;
 }
 const { href, imageUrl, name } = Astro.props;
 ---
-<a class="container" href={href}>
-  <img class="img" src={imageUrl} />
-  {name && <span class="name">{name}</span>}
-</a>
+{href ? (
+  <a class="container" href={href}>
+    <img class="img" src={imageUrl} />
+    {name && <span class="name">{name}</span>}
+  </a>
+) : (
+  <div class="container">
+    <img class="img" src={imageUrl} />
+    {name && <span class="name">{name}</span>}
+  </div>
+)}
 <style>
   .container {
     align-items: center;
-    cursor: pointer;
     display: flex;
     flex-direction: column;
     text-decoration: none;

@@ -1,8 +1,10 @@
 ---
 import { getCollection, getEntry } from 'astro:content';
 import { CircleArrowRight } from '@lucide/astro';
-import WeaponMenuIcon from './WeaponMenuIcon.astro';
+import EvolutionItem from './EvolutionItem.astro';
 
+const characters = await getCollection("characters");
+const relics = await getCollection("relics");
 const weapons = await getCollection('weapons');
 
 type Props = {
@@ -14,20 +16,38 @@ const evolution = await getEntry("evolutions", id);
 ---
 <div class="container">
   <div class="weapon-container">
-    {evolution?.data.left.map((left) => (
-      <WeaponMenuIcon
-        href={`/${left.id}`}
-        imageUrl={`/${left.id}.webp`}
-        name={`${weapons.find(w => w.data.id === left.id)?.data.name}${left.max ? " (max)" : ""}`} 
-      />
-    ))}
+    {evolution?.data.left.map((left) => {
+      if (left.character) {
+        return (
+          <EvolutionItem
+            imageUrl={`/${left.character}.webp`}
+            name={`${characters.find(w => w.data.id === left.character)?.data.name}${left.note ? ` (${left.note})` : ""}`} 
+          />
+        )
+      } else if (left.relic) {
+        return (
+          <EvolutionItem
+            imageUrl={`/${left.relic}.webp`}
+            name={`${relics.find(w => w.data.id === left.relic)?.data.name}${left.note ? ` (${left.note})` : ""}`} 
+          />
+        )
+      } else if (left.weapon) {
+        return (
+          <EvolutionItem
+            href={`/${left.weapon}`}
+            imageUrl={`/${left.weapon}.webp`}
+            name={`${weapons.find(w => w.data.id === left.weapon)?.data.name}${left.note ? ` (${left.note})` : ""}`} 
+          />
+        )
+      } 
+    })}
   </div>
   <CircleArrowRight class="arrow" />
   {evolution?.data.right.map((right) => (
-    <WeaponMenuIcon
-      href={`/${right.id}`}
-      imageUrl={`/${right.id}.webp`}
-      name={`${weapons.find(w => w.data.id === right.id)?.data.name}${right.max ? " (max)" : ""}`}
+    <EvolutionItem
+      href={`/${right.weapon}`}
+      imageUrl={`/${right.weapon}.webp`}
+      name={`${weapons.find(w => w.data.id === right.weapon)?.data.name}${right.note ? ` (${right.note})` : ""}`}
     />
   ))}
 </div>

@@ -1,5 +1,12 @@
 [
   {
+    "id": "anima-of-mortaccio",
+    "description": "Evolved Bone. Projectiles accelerate when bouncing.",
+    "name": "Anima of Mortaccio",
+    "type": "weapon",
+    "unlock_via": "Evolving the Bone by playing Mortaccio to level 80, after obtaining the Chaos Malachite"
+  },
+  {
     "id": "armor",
     "description": "Reduces incoming damage by 1.",
     "name": "Armor",
@@ -28,6 +35,14 @@
     "starting_weapon_for": "Minnah Mannarah",
     "type": "weapon",
     "unlock_via": "Evolving the Whip with the Hollow Heart."
+  },
+  {
+    "id": "bone",
+    "description": "Throws a bouncing projectile.",
+    "name": "Bone",
+    "starting_weapon_for": "Mortaccio",
+    "type": "weapon",
+    "unlock_via": ""
   },
   {
     "id": "bracer",

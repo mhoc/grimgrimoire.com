@@ -15,8 +15,8 @@ const { weapon } = Astro.props;
 const type = weapon.data.type === "weapon" ? 'Weapon' : 'Passive';
 
 const evolutions = (await getCollection("evolutions")).filter(evolution => {
-  return evolution.data.left.find(left => left.id === weapon.id)
-    || evolution.data.right.find(right => right.id === weapon.id);
+  return evolution.data.left.find(left => left.weapon === weapon.id)
+    || evolution.data.right.find(right => right.weapon === weapon.id);
 });
 
 ---
@@ -32,10 +32,12 @@ const evolutions = (await getCollection("evolutions")).filter(evolution => {
         <span class="description">{weapon.data.description}</span>
       </div>
     </div>
-    <div class="field-container">
-      <span class="field-key">Unlocked by</span>
-      <span class="field-value">{weapon.data.unlock_via}</span>
-    </div>
+    {weapon.data.unlock_via && (
+      <div class="field-container">
+        <span class="field-key">Unlocked by</span>
+        <span class="field-value">{weapon.data.unlock_via}</span>
+      </div>
+    )}
     {weapon.data.starting_weapon_for && (
       <div class="field-container">
         <span class="field-key">Starting weapon for</span>

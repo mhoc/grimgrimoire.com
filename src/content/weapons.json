@@ -44,6 +44,14 @@
     "unlock_via": "Reaching Level 4 on the Santa Water."
   },
   {
+    "id": "clock-lancet",
+    "description": "Chance to freeze enemies in time.",
+    "name": "Clock Lancet",
+    "starting_weapon_for": "Iguana Gallo Valletto",
+    "type": "weapon",
+    "unlock_via": "Collecting a Orologion for the first time."
+  },
+  {
     "id": "clover",
     "description": "Character gets 10% luckier.",
     "name": "Clover",
@@ -112,6 +120,14 @@
     "unlock_via": "Destroying 20 torches."
   },
   {
+    "id": "four-seasons",
+    "description": "Generates 4 explosions. Amount and Duration affect damage instead.",
+    "name": "Four Seasons",
+    "starting_weapon_for": "Menya Moonspell",
+    "type": "weapon",
+    "unlock_via": "Surviving 15 minutes on any stage with Menya"
+  },
+  {
     "id": "fuwalafuwaloo",
     "description": "Union of Vento Sacro and Bloody Tear. Critical hits might generate explosions.",
     "name": "Fuwalafuwaloo",
@@ -134,6 +150,20 @@
     "starting_weapon_for": "Giovanna Grana",
     "type": "weapon",
     "unlock_via": "Surviving 15 minutes with Giovanna Grana"
+  },
+  {
+    "id": "godai-shuffle",
+    "description": "Evolved Four Seasons. Generates an additional explosion.",
+    "name": "Godai Shuffle",
+    "type": "weapon",
+    "unlock_via": "Evolving the Four Seasons with the Candelabrador"
+  },
+  {
+    "id": "gold-ring",
+    "description": "... With ... Lancet",
+    "name": "Gold Ring",
+    "type": "passive",
+    "unlock_via": "Found as a stage item after collecting the Yellow Sign"
   },
   {
     "id": "gorgeous-moon",
@@ -171,6 +201,13 @@
     "starting_weapon_for": "Leda",
     "type": "weapon",
     "unlock_via": "Evolving the Magic Wand with an Empty Tome."
+  },
+  {
+    "id": "infinite-corridor",
+    "description": "Evolved Clock Lancet. Halves enemies health.",
+    "name": "Infinite Corridor",
+    "type": "weapon",
+    "unlock_via": "Evolve the Clock Lancet with the Silver Ring and Gold Ring"
   },
   {
     "id": "king-bible",
@@ -287,6 +324,13 @@
     "starting_weapon_for": "Concetta Caciotta",
     "type": "weapon",
     "unlock_via": "Surviving 15 minutes with Concetta."
+  },
+  {
+    "id": "silver-ring",
+    "description": "Wear ... Clock ...",
+    "name": "Silver Ring",
+    "type": "passive",
+    "unlock_via": "Found as a stage item after collecting the Yellow Sign"
   },
   {
     "id": "skull-o-maniac",

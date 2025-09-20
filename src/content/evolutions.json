@@ -10,6 +10,11 @@
     "right": [{ "id": "fuwalafuwaloo" }]
   },
   {
+    "id": "clock-lancet-silver-ring-gold-ring",
+    "left": [{ "id": "clock-lancet" }, { "id": "silver-ring" }, { "id": "gold-ring" }],
+    "right": [{ "id": "infinite-corridor" }]
+  },
+  {
     "id": "cross-clover-heaven-sword",
     "left": [{ "id": "cross" }, { "id": "clover" }],
     "right": [{ "id": "heaven-sword" }]
@@ -18,6 +23,11 @@
     "id": "fire-wand-spinach-hellfire",
     "left": [{ "id": "fire-wand" }, { "id": "spinach" }],
     "right": [{ "id": "hellfire" }]
+  },
+  {
+    "id": "four-seasons-candelabrador",
+    "left": [{ "id": "four-seasons" }, { "id": "candelabrador" }],
+    "right": [{ "id": "godai-shuffle" }]
   },
   {
     "id": "garlic-pummarola-soul-eater",

@@ -87,6 +87,7 @@ const evolutions = (await getCollection("evolutions")).filter(evolution => {
 .field-container {
   display: flex;
   flex-direction: column;
+  gap: 4px;
   padding: 0px 4px;
 }
 .field-key {
@@ -94,7 +95,6 @@ const evolutions = (await getCollection("evolutions")).filter(evolution => {
   font-size: 0.7rem;
   font-style: italic;
   font-weight: 100;
-  margin-bottom: 4px;
 }
 .field-value {
   color: #e7e5e4;

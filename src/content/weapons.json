@@ -59,6 +59,14 @@
     "unlock_via": "Reaching Level 4 on the Santa Water."
   },
   {
+    "id": "cherry-bomb",
+    "description": "Throws a bouncing projectile. Explodes, sometimes.",
+    "name": "Cherry Bomb",
+    "starting_weapon_for": "Cavallo",
+    "type": "weapon",
+    "unlock_via": "Unlock the character Yatta Cavallo"
+  },
+  {
     "id": "clock-lancet",
     "description": "Chance to freeze enemies in time.",
     "name": "Clock Lancet",
@@ -493,5 +501,12 @@
     "name": "Wings",
     "type": "passive",
     "unlock_via": "Reach Level 5 as any character."
+  },
+  {
+    "id": "yatta-daikarin",
+    "description": "Evolved Cherry Bomb. Generates extra explosions that can deal critical Luck based damage.",
+    "name": "Yatta Daikarin",
+    "type": "weapon",
+    "unlock_via": "Evolving the Cherry Bomb by reaching level 80 with Cavallo after obtaining the Chaos Rosalia"
   }
 ]

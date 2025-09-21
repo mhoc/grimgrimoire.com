@@ -1,5 +1,9 @@
 [
   {
+    "id": "cavallo",
+    "name": "Cavallo"
+  },
+  {
     "id": "mortaccio",
     "name": "Mortaccio"
   }

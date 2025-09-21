@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
+import WeaponList from '../components/WeaponList.astro';
 import Layout from '../layouts/Layout.astro';
-import { WeaponList } from '../components/WeaponList';
 
 const weapons = await getCollection("weapons");
 ---
@@ -16,7 +16,7 @@ const weapons = await getCollection("weapons");
 		</span>
 	</div>
 	<div class="items-container">
-		<WeaponList client:load weapons={weapons} />
+		<WeaponList weapons={weapons} />
 	</div>
 </Layout>
 <style>

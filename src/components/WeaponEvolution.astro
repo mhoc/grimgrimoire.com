@@ -1,7 +1,7 @@
 ---
 import { getCollection, getEntry } from 'astro:content';
 import { CircleArrowRight } from '@lucide/astro';
-import EvolutionItem from './EvolutionItem.astro';
+import ItemIcon from './ItemIcon.astro';
 
 const characters = await getCollection("characters");
 const relics = await getCollection("relics");
@@ -14,26 +14,26 @@ type Props = {
 const { id } = Astro.props;
 const evolution = await getEntry("evolutions", id);
 ---
-<div class="container">
-  <div class="weapon-container">
+<div class="flex flex-row flex-wrap gap-4 rounded-md p-4 w-fit bg-stone-800">
+  <div class="flex flex-col md:flex-row gap-4">
     {evolution?.data.left.map((left) => {
       if (left.character) {
         return (
-          <EvolutionItem
+          <ItemIcon
             imageUrl={`/${left.character}.webp`}
             name={`${characters.find(w => w.data.id === left.character)?.data.name}${left.note ? ` (${left.note})` : ""}`} 
           />
         )
       } else if (left.relic) {
         return (
-          <EvolutionItem
+          <ItemIcon
             imageUrl={`/${left.relic}.webp`}
             name={`${relics.find(w => w.data.id === left.relic)?.data.name}${left.note ? ` (${left.note})` : ""}`} 
           />
         )
       } else if (left.weapon) {
         return (
-          <EvolutionItem
+          <ItemIcon
             href={`/${left.weapon}`}
             imageUrl={`/${left.weapon}.webp`}
             name={`${weapons.find(w => w.data.id === left.weapon)?.data.name}${left.note ? ` (${left.note})` : ""}`} 
@@ -42,38 +42,12 @@ const evolution = await getEntry("evolutions", id);
       } 
     })}
   </div>
-  <CircleArrowRight class="arrow" />
+  <CircleArrowRight class="self-center text-stone-500" />
   {evolution?.data.right.map((right) => (
-    <EvolutionItem
+    <ItemIcon
       href={`/${right.weapon}`}
       imageUrl={`/${right.weapon}.webp`}
       name={`${weapons.find(w => w.data.id === right.weapon)?.data.name}${right.note ? ` (${right.note})` : ""}`}
     />
   ))}
 </div>
-<style>
-  .container {
-    background-color: oklch(26.8% 0.007 34.298);
-    border-radius: 8px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 16px;
-    padding: 16px;
-    width: fit-content;
-  }
-  .weapon-container {
-    display: flex;
-    flex-direction: row;
-  }
-  @media (max-width: 600px) {
-    .weapon-container {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-  .arrow {
-    align-self: center;
-    color: oklch(55.3% 0.013 58.071);
-  }
-</style>

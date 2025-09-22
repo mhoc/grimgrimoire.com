@@ -32,19 +32,19 @@ const evolutions = (await getCollection("evolutions")).filter(evolution => {
       </div>
     </div>
     {weapon.data.unlock_via && (
-      <div class="flex flex-col gap-2 px-2">
+      <div class="flex flex-col gap-1 px-2">
         <span class="text-stone-400 font-light text-sm leading-tight">Unlocked by</span>
         <span class="text-stone-200 font-medium text-md leading-tight">{weapon.data.unlock_via}</span>
       </div>
     )}
     {weapon.data.starting_weapon_for && (
-      <div class="flex flex-col gap-2 px-2">
+      <div class="flex flex-col gap-1 px-2">
         <span class="text-stone-400 font-light text-sm leading-tight">Starting weapon for</span>
         <span class="text-stone-200 font-medium text-md leading-tight">{weapon.data.starting_weapon_for}</span>
       </div>
     )}
     {evolutions.length > 0 && (
-      <div class="flex flex-col gap-2 px-2">
+      <div class="flex flex-col gap-1 px-2">
         <span class="text-stone-400 font-light text-sm leading-tight">Evolutions</span>
         {evolutions.map(evolution => (
           <WeaponEvolution id={evolution.id} />

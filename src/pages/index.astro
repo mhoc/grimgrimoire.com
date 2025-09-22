@@ -7,47 +7,23 @@ const weapons = await getCollection("weapons");
 ---
 
 <Layout>
-	<div class="title-container">
-		<span class="title">The Grim Grimoire</span>
-		<span class="subtitle">
+	<div class="flex flex-col gap-2 p-4">
+		<span class="font-semibold text-xl text-stone-100 leading-tight">The Grim Grimoire</span>
+		<span class="text-sm text-stone-300 italic leading-tight">
 			An unofficial fan tool for
 			<a class="link" href="https://store.steampowered.com/app/1794680/Vampire_Survivors/" target="_blank">Vampire Survivors</a>.
 			<a class="link" href="https://github.com/mhoc/grimgrimoire.com" target="_blank">Code</a>.
 		</span>
 	</div>
-	<div class="items-container">
+	<div class="px-4">
 		<WeaponList weapons={weapons} />
 	</div>
 </Layout>
 <style>
-	.title-container {
-		display: flex;
-		flex-direction: column;
-		gap: 4px;
-		padding: 8px;
-	}
-	.title {
-		color: #d4d4d8;
-		font-size: 1.2rem;
-		font-style: italic;
-	}
-	.subtitle {
-		color: #d4d4d8;
-		font-size: 0.8rem;
-		font-style: italic;
-	}
 	.link {
 		color: #a1a1aa;
 		text-decoration: underline;
 		text-decoration-color: #a1a1aa;
 		text-decoration-style: dashed;
-	}
-	.items-container {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		max-width: 1000px;
-		padding: 8px;
-		width: 100vw;
 	}
 </style>

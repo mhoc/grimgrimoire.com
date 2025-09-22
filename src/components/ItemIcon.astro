@@ -7,7 +7,7 @@ type Props = {
 const { href, imageUrl, name } = Astro.props;
 ---
 {href ? (
-  <a class="bg-stone-800 flex flex-col gap-1 items-center no-underline border-2 border-yellow-600 rounded-md p-2" href={href}>
+  <a class="bg-stone-800 flex flex-col gap-1 items-center no-underline border-2 border-yellow-600 rounded-md p-2 w-fit h-fit" href={href}>
     <img class="h-[80px] w-[80px] min-w-[80px] min-h-[80px]" src={imageUrl} />
     {name && <span class="text-stone-300 text-center text-sm">{name}</span>}
   </a>

@@ -110,7 +110,7 @@
     "description": "Character gets 10% luckier.",
     "name": "Clover",
     "type": "passive",
-    "unlock_via": "Finding a little clover from a light source."
+    "unlock_via": "Finding a clover from a light source."
   },
   {
     "id": "crimson-shroud",

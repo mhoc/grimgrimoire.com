@@ -150,6 +150,14 @@
     "unlock_via": "Destroying 20 torches."
   },
   {
+    "id": "flash-arrow",
+    "description": "Can deal critical damage. Amount affects damage instead.",
+    "name": "Flash Arrow",
+    "starting_weapon_for": "Keitha Muort",
+    "type": "weapon",
+    "unlock_via": "Survive 15 minutes with Keitha Muort"
+  },
+  {
     "id": "four-seasons",
     "description": "Generates 4 explosions. Amount and Duration affect damage instead.",
     "name": "Four Seasons",
@@ -306,6 +314,13 @@
     "name": "Metaglio Right",
     "type": "passive",
     "unlock_via": "Found as a stage item after collecting the Yellow Card"
+  },
+  {
+    "id": "millionaire",
+    "description": "Evolved Flash Arrow. Fires additional projectiles based on Amount and when picking up gold coins.",
+    "name": "Millionaire",
+    "type": "weapon",
+    "unlock_via": "Evolve the Flash Arrow with the Bracer"
   },
   {
     "id": "no-future",

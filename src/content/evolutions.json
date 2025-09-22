@@ -30,6 +30,11 @@
     "right": [{ "weapon": "hellfire" }]
   },
   {
+    "id": "flash-arrow-bracer",
+    "left": [{ "weapon": "flash-arrow" }, { "weapon": "bracer" }],
+    "right": [{ "weapon": "millionaire" }]
+  },
+  {
     "id": "four-seasons-candelabrador",
     "left": [{ "weapon": "four-seasons" }, { "weapon": "candelabrador" }],
     "right": [{ "weapon": "godai-shuffle" }]

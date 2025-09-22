@@ -227,6 +227,13 @@
     "unlock_via": "Evolving the Pentagram with the Crown"
   },
   {
+    "id": "greatest-jubilee",
+    "description": "Has a chance to summon light sources.",
+    "name": "Greatest Jubilee",
+    "type": "weapon",
+    "unlock_via": "Defeating the Director"
+  },
+  {
     "id": "heaven-sword",
     "description": "Evolved Cross. Can deal critical deamage.",
     "name": "Heaven Sword",

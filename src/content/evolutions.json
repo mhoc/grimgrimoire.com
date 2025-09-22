@@ -5,6 +5,11 @@
     "right": [{ "weapon": "death-spiral" }]
   },
   {
+    "id": "bi-bracelet",
+    "left": [{ "weapon": "bi-bracelet" }],
+    "right": [{ "weapon": "tri-bracelet" }]
+  },
+  {
     "id": "bloody-tear-vento-sacro-fuwalafuwaloo",
     "left": [{ "weapon": "bloody-tear" }, { "weapon": "vento-sacro", "note": "max" }],
     "right": [{ "weapon": "fuwalafuwaloo" }]
@@ -13,6 +18,11 @@
     "id": "bone-mortaccio-chaos-malachite",
     "left": [{ "weapon": "bone" }, { "character": "mortaccio", "note": "80" }, { "relic": "chaos-malachite" }],
     "right": [{ "weapon": "anima-of-mortaccio" }]
+  },
+  {
+    "id": "bracelet",
+    "left": [{ "weapon": "bracelet" }],
+    "right": [{ "weapon": "bi-bracelet" }]
   },
   {
     "id": "clock-lancet-silver-ring-gold-ring",

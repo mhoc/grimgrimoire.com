@@ -29,6 +29,13 @@
     "unlock_via": "Starting weapon."
   },
   {
+    "id": "bi-bracelet",
+    "description": "Fires three projectiles at a random enemy.",
+    "name": "Bi-Bracelet",
+    "type": "weapon",
+    "unlock_via": "Evolving the Bracelet, which requires no passive items."
+  },
+  {
     "id": "bloody-tear",
     "description": "Evolved Whip. Can deal critical damage and absorb HP.",
     "name": "Bloody Tear",
@@ -43,6 +50,14 @@
     "starting_weapon_for": "Mortaccio",
     "type": "weapon",
     "unlock_via": ""
+  },
+  {
+    "id": "bracelet",
+    "description": "Fires three projectiles at a random enemy.",
+    "name": "Bracelet",
+    "starting_weapon_for": "Gyorunton",
+    "type": "weapon",
+    "unlock_via": "Survive 30 minutes with either Divano or Gallo"
   },
   {
     "id": "bracer",
@@ -495,6 +510,13 @@
     "name": "Tirajisu",
     "type": "passive",
     "unlock_via": "Surviving for 20 minutes as Krochi Freetto."
+  },
+  {
+    "id": "tri-bracelet",
+    "description": "Fires three projectiles at a random enemy.",
+    "name": "Tri-Bracelet",
+    "type": "weapon",
+    "unlock_via": "Evolving the Bi-Bracelet, which requires no passive."
   },
   {
     "id": "unholy-vespers",

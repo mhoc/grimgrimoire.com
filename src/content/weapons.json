@@ -67,6 +67,14 @@
     "unlock_via": "Unlock Ramba"
   },
   {
+    "id": "celestial-dusting",
+    "description": "Throws a bouncing projectile. Cooldown reduces when moving.",
+    "name": "Celestial Dusting",
+    "starting_weapon_for": "O'Sole",
+    "type": "weapon",
+    "unlock_via": "Unlock O'Sole"
+  },
+  {
     "id": "cherry-bomb",
     "description": "Throws a bouncing projectile. Explodes, sometimes.",
     "name": "Cherry Bomb",

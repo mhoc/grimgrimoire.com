@@ -287,6 +287,14 @@
     "unlock_via": "Evolving the Santa Water with an Attractorb."
   },
   {
+    "id": "la-robba",
+    "description": "Generates bouncing projectiles.",
+    "name": "La Robba",
+    "starting_weapon_for": "Ambrojoe",
+    "type": "weapon",
+    "unlock_via": "Unlock Ambrojoe"
+  },
+  {
     "id": "laurel",
     "description": "Shields from damage while active.",
     "name": "Laurel",

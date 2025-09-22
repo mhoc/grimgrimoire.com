@@ -15,18 +15,19 @@ const evolutions = defineCollection({
     id: z.string(),
     left: z.array(
       z.object({
-        character: z.union([ z.null(), z.undefined(), z.string() ]),
-        note: z.union([z.null(), z.undefined(), z.string()]),
-        relic: z.union([ z.null(), z.undefined(), z.string() ]),
-        weapon: z.union([ z.null(), z.undefined(), z.string() ]),
+        character: z.union([ z.undefined(), z.string() ]),
+        note: z.union([ z.undefined(), z.string()]),
+        relic: z.union([ z.undefined(), z.string() ]),
+        other: z.union([ z.undefined(), z.string() ]),
+        weapon: z.union([ z.undefined(), z.string() ]),
       })
     ),
     right: z.array(
       z.object({
-        character: z.union([ z.null(), z.undefined(), z.string() ]),
-        note: z.union([z.null(), z.undefined(), z.string()]),
-        relic: z.union([ z.null(), z.undefined(), z.string() ]),
-        weapon: z.union([ z.null(), z.undefined(), z.string()]),
+        character: z.union([ z.undefined(), z.string() ]),
+        note: z.union([ z.undefined(), z.string()]),
+        relic: z.union([ z.undefined(), z.string() ]),
+        weapon: z.union([ z.undefined(), z.string()]),
       })
     ),
   }),
@@ -46,7 +47,7 @@ const weapons = defineCollection({
     description: z.string(),
     id: z.string(),
     name: z.string(),
-    starting_weapon_for: z.union([z.null(), z.undefined(), z.string()]),
+    starting_weapon_for: z.union([ z.undefined(), z.string() ]),
     type: z.enum(["weapon", "passive"]),
     unlock_via: z.string(),
   }),

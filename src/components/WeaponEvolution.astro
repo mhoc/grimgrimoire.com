@@ -21,14 +21,16 @@ const evolution = await getEntry("evolutions", id);
         return (
           <ItemIcon
             imageUrl={`/${left.character}.webp`}
-            name={`${characters.find(w => w.data.id === left.character)?.data.name}${left.note ? ` (${left.note})` : ""}`} 
+            name={characters.find(w => w.data.id === left.character)?.data.name}
+            subtext={left.note}
           />
         )
       } else if (left.relic) {
         return (
           <ItemIcon
             imageUrl={`/${left.relic}.webp`}
-            name={`${relics.find(w => w.data.id === left.relic)?.data.name}${left.note ? ` (${left.note})` : ""}`} 
+            name={relics.find(w => w.data.id === left.relic)?.data.name}
+            subtext={left.note}
           />
         )
       } else if (left.weapon) {
@@ -36,10 +38,18 @@ const evolution = await getEntry("evolutions", id);
           <ItemIcon
             href={`/${left.weapon}`}
             imageUrl={`/${left.weapon}.webp`}
-            name={`${weapons.find(w => w.data.id === left.weapon)?.data.name}${left.note ? ` (${left.note})` : ""}`} 
+            name={weapons.find(w => w.data.id === left.weapon)?.data.name}
+            subtext={left.note}
           />
         )
-      } 
+      } else if (left.other) {
+        return (
+          <ItemIcon
+            imageUrl="/grim-grimoire.webp"
+            name={left.other}
+          />
+        )
+      }
     })}
   </div>
   <CircleArrowRight class="self-center text-stone-400" />

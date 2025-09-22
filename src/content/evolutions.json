@@ -11,18 +11,23 @@
   },
   {
     "id": "bloody-tear-vento-sacro-fuwalafuwaloo",
-    "left": [{ "weapon": "bloody-tear" }, { "weapon": "vento-sacro", "note": "max" }],
+    "left": [{ "weapon": "bloody-tear" }, { "weapon": "vento-sacro", "note": "Max" }],
     "right": [{ "weapon": "fuwalafuwaloo" }]
   },
   {
     "id": "bone-mortaccio-chaos-malachite",
-    "left": [{ "weapon": "bone" }, { "character": "mortaccio", "note": "80" }, { "relic": "chaos-malachite" }],
+    "left": [{ "weapon": "bone" }, { "character": "mortaccio", "note": "Level 80" }, { "relic": "chaos-malachite" }],
     "right": [{ "weapon": "anima-of-mortaccio" }]
   },
   {
     "id": "bracelet",
     "left": [{ "weapon": "bracelet" }],
     "right": [{ "weapon": "bi-bracelet" }]
+  },
+  {
+    "id": "candybox",
+    "left": [{ "weapon": "candybox", "note": "At Any Point In The Run" }, { "other": "Fully Upgraded Inventory" }],
+    "right": [{ "weapon": "super-candybox-ii-turbo" }]
   },
   {
     "id": "clock-lancet-silver-ring-gold-ring",

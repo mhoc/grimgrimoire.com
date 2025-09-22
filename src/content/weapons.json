@@ -74,6 +74,14 @@
     "unlock_via": "Reaching Level 4 on the Santa Water."
   },
   {
+    "id": "candybox",
+    "description": "Allows you to choose any unlocked base weapon.",
+    "name": "Candybox",
+    "starting_weapon_for": "Trouser",
+    "type": "weapon",
+    "unlock_via": "Discovering every standard evolution and union in your unlock section"
+  },
+  {
     "id": "carrello",
     "description": "Throws a bouncing projectile. Number of bounces affected by Amount.",
     "name": "Carréllo",
@@ -488,6 +496,13 @@
     "name": "Stone Mask",
     "type": "passive",
     "unlock_via": "Finding it as a stage item for the first time."
+  },
+  {
+    "id": "super-candybox-ii-turbo",
+    "description": "Gift of Candybox. Allows to choose among a selection of advanced weapons.",
+    "name": "Super Candybox II Turbo",
+    "type": "weapon",
+    "unlock_via": "Having a fully upgraded weapon and passive inventory, having found the Candybox earlier in the run."
   },
   {
     "id": "thousand-edge",
